@@ -5,34 +5,100 @@
 
 .solanaRedirect{
     overflow: hidden;
-
 }
 .solanaRedirect:hover a{
     animation-name: solanaButtonHoverAnimation;
     animation-duration: 2s;
+    animation-fill-mode: forwards
 }
 
+.TerminalLinuxRedirect{
+    overflow: hidden;
+}
+.TerminalLinuxRedirect:hover a{
+    animation-name: terminalLinuxButtonHoverAnimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards
+}
+
+/* hover simples de background o projetos*/
+.diverseProjectsRedirect:hover a{
+    animation-name: diverseProjectButtonHoverAnimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes diverseProjectButtonHoverAnimation{
+    0%{
+        border-radius: 3px;
+    }
+    100%{
+        background-color: silver;
+    }
+}
+
+@keyframes terminalLinuxButtonHoverAnimation{
+    0%{transform: translateX(0%);}
+    40%{ 
+        background-color: white;
+        transform: translateX(-150%);}
+    40.1%{
+        background-color: white;
+        transform: translateX(-150%);
+    }
+    60.1%{
+        border-radius: 2px;
+        color: black;
+        background-color: black;
+        
+    }
+    100%{
+
+        border-radius: 3px;
+        color: rgb(0, 255, 0);
+        background-color: black;
+
+       
+
+    }
+}
 
 @keyframes solanaButtonHoverAnimation{
     
     0%{
         
+        background-position: 0% 0%;
         transform: translateX(0%);
     }
 
     40%{
-        color: black;
-        transform: translateX(-100%);
+        background-color: white;
+        transform: translateX(-150%);
     }
 
     40.1% {
-        color: red;
-        transform: translateX(100%);
+        /* background-color: rgb(55, 0, 97);
+        color: rgb(255, 255, 255); */
+        background-color: white;
+        transform: translateX(200%);
+      
     }
-
+    60%{
+        background: linear-gradient(35deg, rgba(173,0,255,1) 0%, rgba(0,94,113,1) 100%); 
+        background-position: 0% 0%;
+        border-radius: 3px;
+        color: whitesmoke;
+    }
     100%{
-        color: green;
+       
+        background-position: 0% 100%;
+        background: linear-gradient(35deg, rgba(173,0,255,1) 0%, rgba(0,94,113,1) 100%); 
+        
+        border-radius: 3px;
+        color: whitesmoke;
+
         transform: translateX(0%);
+        
     }
 
 
