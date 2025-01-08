@@ -103,3 +103,10 @@
 
 
 }
+
+@media screen and (max-width: 600px) {
+    .space-xMobile{
+            margin-left: 15px;
+            margin-right: 15px;
+    }
+}
