@@ -3,13 +3,6 @@
 
 @import url();
 
-@media screen and (max-width: 600px) {
-    .div-block{
-            margin-right: 0%;
-    }
-}
-
-
 .solanaRedirect{
     overflow: hidden;
 }
