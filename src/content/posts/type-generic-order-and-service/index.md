@@ -1,8 +1,8 @@
 ---
 title: 'Type <T> Generic Order and Service'
-published: 2025-07-20
+published: 2025-08-11
 draft: false
-tags: ['astro', 'demo', 'markdown']
+tags: ['Java', 'JavaFX', 'Order and service manager']
 toc: true
 coverImage:
   src: './cover.jpg'
