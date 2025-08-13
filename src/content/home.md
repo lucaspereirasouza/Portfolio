@@ -2,7 +2,7 @@
 avatarImage:
   src: './avatar.jpg'
   alt: 'My avatar'
-githubCalendar: 'stelcodes'
+githubCalendar: 'lucaspereirasouza'
 ---
 
 Olá! eu sou Lucas Pereira de Souza!
